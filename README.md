@@ -1,11 +1,25 @@
 # ETL
 
-## Introduction
+## 1. Introduction
 In company, Information related to demographics, education, experience are in hands from candidates signup and enrollment.
 However, these data are comming from several deppartments as well as in different format types.
 This project introduces the ETL process in step by step to collect all relatted data, fix the missing data and then combine them into a database which is ready for analysis purpose.
 
-## The data you have used
+## 2. Data information
+### Source of data
+- Enrollies' data: https://docs.google.com/spreadsheets/d/1VCkHwBjJGRJ21asd9pxW4_0z2PWuKhbLR3gUHm-p4GI/edit?usp=sharing
+- Enrollies' education: https://assets.swisscoding.edu.vn/company_course/enrollies_education.xlsx
+- Enrollies' working experience: https://assets.swisscoding.edu.vn/company_course/work_experience.csv
+- Training hours: from the Database with credentials as following:
+      Database type: MySQL
+      Host: 112.213.86.31
+      Port: 3360
+      Login: etl_practice
+      Password: 550814
+      Database name: company_course
+      Table name: training_hours
+- City development index: in a table from the website https://sca-programming-school.github.io/city_development_index/index.html
+- Employment: in an employment table from the same MySQL Database as above.
 
 ## A description of each step and decision (for example, why you chose to perform the data cleaning in the way you did)
 
