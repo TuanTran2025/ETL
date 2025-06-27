@@ -34,6 +34,14 @@ Data will be extracted rom different types of source, such as:
 - Fix data types: Due to optimizing the memory and processing time, it is necessary to converting the data types of related columns into properly ones, for instance: \
       * String type for full_name and experience columns. \
       * Category type for columns of gender, city, enrolled_university, education_level, major_discipline, etc.
-- Fill missing values:
+- Fill missing values: In simple way, all missing values will be filled with the most frequent one.
 
-## Instruction, how to schedule the script on any platform (you can choose which platform you will write the instruction for). Don't forget, that you have instruction in the last lecture's Colab file.
+### 3.3. Load data
+In finale, all cleaned data will be load into a single database file which is included all related tables and now ready for analysis purpose.
+
+## 4. Apply environments
+- Google Colab
+- Python environment: Making sure that the system has alread  install these required libraries:
+
+      pip install pandas sqlalchemy pymysql openpyxl requests
+
