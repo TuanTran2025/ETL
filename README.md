@@ -10,9 +10,9 @@ This project introduces the ETL process in step by step to collect all relatted 
 - Enrollies' data: https://docs.google.com/spreadsheets/d/1VCkHwBjJGRJ21asd9pxW4_0z2PWuKhbLR3gUHm-p4GI/edit?usp=sharing
 - Enrollies' education: https://assets.swisscoding.edu.vn/company_course/enrollies_education.xlsx
 - Enrollies' working experience: https://assets.swisscoding.edu.vn/company_course/work_experience.csv
-- Training hours: from the Database with credentials as following:
-      /n Database type: MySQL
-      Host: 112.213.86.31
+- Training hours: from the Database with credentials as following:\
+      Database type: MySQL
+     \Host: 112.213.86.31
       Port: 3360
       Login: etl_practice
       Password: 550814
