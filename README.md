@@ -31,14 +31,11 @@ This project introduces the ETL process in step by step to collect all relatted 
   
 - Enrollies' education: \
 After enrollment everyone should fill the form about their education level. This form is being digitalized manually. Educational department stores it in the Excel format file which has a table contains the following columns: \
+       enrollee_id: A unique identifier for each enrollee. This integer value uniquely distinguishes each participant in the dataset. \
+       enrolled_university: Indicates the enrollee's university enrollment status. Possible values include no_enrollment, Part time course, and Full time course. \
+       education_level: Represents the highest level of education attained by the enrollee. Examples include Graduate, Masters, etc. \
+       major_discipline: Specifies the primary field of study for the enrollee. Examples include STEM, Business Degree, etc.
 
-       enrollee_id: A unique identifier for each enrollee. This integer value uniquely distinguishes each participant in the dataset.
-       
-       enrolled_university: Indicates the enrollee's university enrollment status. Possible values include no_enrollment, Part time course, and Full time course.
-       
-       education_level: Represents the highest level of education attained by the enrollee. Examples include Graduate, Masters, etc.
-
-major_discipline: Specifies the primary field of study for the enrollee. Examples include STEM, Business Degree, etc.
 ## A description of each step and decision (for example, why you chose to perform the data cleaning in the way you did)
 
 ## Instruction, how to schedule the script on any platform (you can choose which platform you will write the instruction for). Don't forget, that you have instruction in the last lecture's Colab file.
