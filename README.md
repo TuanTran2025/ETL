@@ -19,12 +19,13 @@ This project introduces the ETL process in step by step to collect all relatted 
        * Table name: training_hours
 - City development index: in a table from the website https://sca-programming-school.github.io/city_development_index/index.html
 - Employment: in an employment table from the same MySQL Database as above. \
+---------------------
 Other sources: https://github.com/TuanTran2025/ETL
+---------------------
 
-## A description of each step and decision (for example, why you chose to perform the data cleaning in the way you did)
 ## 3. Descriptions of main steps
 ### 3.1. Extract data
-Data will be extracted rom different types of source, such as:
+Data will be extracted from different types of source, such as:
 - Google sheet: Enrollies' data
 - Excel format: Enrollies' education
 - CSV format: Enrollies' working experience
@@ -39,10 +40,4 @@ Data will be extracted rom different types of source, such as:
 
 ### 3.3. Load data
 In finale, all cleaned data will be load into a single database file which is included all related tables and now ready for analysis purpose.
-
-## 4. Apply environments
-- Google Colab
-- Python environment: Making sure that the system has alread  install these required libraries:
-
-      pip install pandas sqlalchemy pymysql openpyxl requests
 
