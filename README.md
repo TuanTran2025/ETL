@@ -31,7 +31,7 @@ Data will be extracted rom different types of source, such as:
 - Table from Website: City development index
 
 ### 3.2. Clean data
-- Fix data types: Converting the data types of related columns into properly ones, for examples: \
+- Fix data types: Due to optimizing the memory and processing time, it is necessary to converting the data types of related columns into properly ones, for instance: \
       * String type for full_name and experience columns. \
       * Category type for columns of gender, city, enrolled_university, education_level, major_discipline, etc.
 - Fill missing values:
