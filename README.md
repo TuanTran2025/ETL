@@ -31,10 +31,9 @@ Data will be extracted rom different types of source, such as:
 - Table from Website: City development index
 
 ### 3.2. Clean data
-- Fix data types: \
-      * Converting the data types of related columns into properly ones, for examples: \
-        + Category type for columns of gender, city, enrolled_university, education_level, major_discipline, company_type, company_size and relevent_experience. \
-        + String type for full_name and experience columns.
+- Fix data types: Converting the data types of related columns into properly ones, for examples: \
+      + Category type for columns of gender, city, enrolled_university, education_level, major_discipline, company_type, company_size and relevent_experience. \
+      + String type for full_name and experience columns.
 - Fill missing values:
 
 ## Instruction, how to schedule the script on any platform (you can choose which platform you will write the instruction for). Don't forget, that you have instruction in the last lecture's Colab file.
