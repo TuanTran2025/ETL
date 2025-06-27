@@ -32,7 +32,7 @@ Data will be extracted from different types of source, such as:
 - MySQL database: Training hours and Employment
 - Table from Website: City development index
 
-### 3.2. Clean data
+### 3.2. Tranform data
 - Fix data types: Due to optimizing the memory and processing time, it is necessary to converting the data types of related columns into properly ones, for instance: \
       * String type for full_name and experience columns. \
       * Category type for columns of gender, city, enrolled_university, education_level, major_discipline, etc.
