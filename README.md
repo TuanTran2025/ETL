@@ -23,12 +23,18 @@ This project introduces the ETL process in step by step to collect all relatted 
 ## A description of each step and decision (for example, why you chose to perform the data cleaning in the way you did)
 ## 3. Descriptions of main steps
 ### 3.1. Extract data
-From different types of source:
+Data will be extracted rom different types of source, such as:
 - Google sheet: Enrollies' data
 - Excel format: Enrollies' education
 - CSV format: Enrollies' working experience
 - MySQL database: Training hours and Employment
-- Table from Website0: City development index 
+- Table from Website: City development index
 
+### 3.2. Clean data
+- Fix data types:
+      * Converting the data types of related columns into properly ones, for examples: \
+        - string type for the full_name and experience columns \
+        - category type for the columns of gender, city, enrolled_university, education_level, major_discipline, company_type, company_size and relevent_experience \
+- Fill missing values:
 
 ## Instruction, how to schedule the script on any platform (you can choose which platform you will write the instruction for). Don't forget, that you have instruction in the last lecture's Colab file.
