@@ -23,13 +23,12 @@ This project introduces the ETL process in step by step to collect all relatted 
 
 2.2. Data description
 - Enrollies' data: \
-       As enrollies are submitting their request to join the course via Google Forms, we have the Google Sheet that stores data about enrolled students, containing the following columns:
-
-enrollee_id: unique ID of an enrollee
-full_name: full name of an enrollee
-city: the name of an enrollie's city
-gender: gender of an enrollee
-
+       As enrollies are submitting their request to join the course via Google Forms, it has been created the Google Sheet that stores data about enrolled students, containing the following columns: \
+       enrollee_id: unique ID of an enrollee \
+       full_name: full name of an enrollee \
+       city: the name of an enrollie's city \
+       gender: gender of an enrollee
+- 
 ## A description of each step and decision (for example, why you chose to perform the data cleaning in the way you did)
 
 ## Instruction, how to schedule the script on any platform (you can choose which platform you will write the instruction for). Don't forget, that you have instruction in the last lecture's Colab file.
