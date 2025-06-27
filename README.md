@@ -19,7 +19,7 @@ This project introduces the ETL process in step by step to collect all relatted 
        * Table name: training_hours
 - City development index: in a table from the website https://sca-programming-school.github.io/city_development_index/index.html
 - Employment: in an employment table from the same MySQL Database as above. \
----------------------
+--
 Other sources: https://github.com/TuanTran2025/ETL
 
 ## 3. Descriptions of main steps
