@@ -45,6 +45,17 @@ This project introduces the ETL process in step by step to collect all relatted 
        * company_type: Indicates the type of company where the enrollee has worked. Examples include Pvt Ltd, Funded Startup, etc. \
        * last_new_job: Represents the number of years since the enrollee's last job change. Examples include never, >4, 1, etc.
 
+- Training hours: \
+  From the system's database to retrieve a number of training hours for each student that they have completed. \
+  Database credentials: \
+      * Database type: MySQL \
+      * Host: 112.213.86.31 \
+      * Port: 3360 \
+      * Login: etl_practice \
+      * Password: 550814 \
+      * Database name: company_course \
+      * Table name: training_hours
+
 ## A description of each step and decision (for example, why you chose to perform the data cleaning in the way you did)
 
 ## Instruction, how to schedule the script on any platform (you can choose which platform you will write the instruction for). Don't forget, that you have instruction in the last lecture's Colab file.
