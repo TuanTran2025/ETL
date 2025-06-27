@@ -22,7 +22,7 @@ This project introduces the ETL process in step by step to collect all relatted 
 ---
 Alternative source: https://github.com/TuanTran2025/ETL
 
-## 3.Data process
+## 3.Data Process
 ### 3.1. Extract data
 Data will be extracted from different types of source, such as:
 - Google sheet: Enrollies' data
