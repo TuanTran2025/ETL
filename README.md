@@ -11,13 +11,13 @@ This project introduces the ETL process in step by step to collect all relatted 
 - Enrollies' education: https://assets.swisscoding.edu.vn/company_course/enrollies_education.xlsx
 - Enrollies' working experience: https://assets.swisscoding.edu.vn/company_course/work_experience.csv
 - Training hours: from the Database with credentials as following: \
-            Database type: MySQL \
-            Host: 112.213.86.31 \
-            Port: 3360 \
-            Login: etl_practice \
-            Password: 550814 \
-            Database name: company_course \
-            Table name: training_hours
+       Database type: MySQL \
+       Host: 112.213.86.31 \
+       Port: 3360 \
+       Login: etl_practice \
+       Password: 550814 \
+       Database name: company_course \
+       Table name: training_hours
 - City development index: in a table from the website https://sca-programming-school.github.io/city_development_index/index.html
 - Employment: in an employment table from the same MySQL Database as above.
 
